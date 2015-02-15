@@ -10,9 +10,5 @@ bind_port="8080"
 # How many threads you want gunicorn to spawn.
 workers="10"
 
-# Daemonize gunicorn?
-daemon="False"
-
-
 /usr/local/bin/gunicorn --access-logfile "${access_log}" --bind "${bind_host}:${bind_port}"\
                         --workers "${workers}" main:app
