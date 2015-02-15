@@ -43,6 +43,8 @@ def upload(*paths):
 
 def async_upload(*paths):
     """
+    Warning: This function is currently exactly the same as upload()...
+
     This loops over a set of files and uploads them all at once. The result is then printed.
     """
 
