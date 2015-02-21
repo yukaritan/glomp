@@ -21,7 +21,7 @@ Example:
 Explanation:
 "upload_path"               Where uploaded files are stored
 
-"download_redirect_url"     Point this to a webserver that's actually good at service static content.
+"download_redirect_url"     Point this to a webserver that's actually good at serving static content.
                             The URL should contain "{key}", which whill be replaced with the key for the
                             file you wish to download. This is handled dynamically by the API.
 
