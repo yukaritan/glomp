@@ -8,15 +8,14 @@ Flask
 ...Anything else?
 
 
-You need to make a settings.json:
+You need to make a settings.ini:
 
 Example:
-{
-  "upload_path": "/tmp/upload/",
-  "download_redirect_url": "https://127.0.0.1/files/{key}",
-  "max_file_size": 52428800,
-  "max_request_size": 524288000
-}
+    \[DEFAULT\]
+    download_redirect_url = https://127.0.0.1/files/\{key\}
+    upload_path = /tmp/upload/
+    max_file_size = 52428800
+    max_request_size = 524288000
 
 
 Explanation:
